@@ -4,6 +4,7 @@
 
 <script lang="ts">
 	import Counter from '$lib/Counter.svelte';
+	import Icon from '$lib/Icon.svelte';
 </script>
 
 <svelte:head>
@@ -26,6 +27,8 @@
 	<h2>
 		try editing <strong>src/routes/index.svelte</strong>
 	</h2>
+
+	<Icon />
 
 	<Counter />
 </section>
